@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+  max-width: 1020px;
+  margin: 0px auto;
+  height: 14vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+}
+.header__ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    
+}
+.header__ul li{
+    width: 100px;
+    background-color: yellow;
+    margin:0px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    font-weight: 500;
+    cursor: pointer;
+    padding:4px 2px;
+    border-radius: 12px;
+}
